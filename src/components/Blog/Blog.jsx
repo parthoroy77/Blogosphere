@@ -3,7 +3,7 @@ import "./Blog.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
-const Blog = ({ blog, handleReadTime }) => {
+const Blog = ({ blog, handleBookMark, handleReadTime }) => {
   const {
     _id,
     blog_title,
@@ -30,15 +30,15 @@ const Blog = ({ blog, handleReadTime }) => {
             </div>
             <div className="flex items-center gap-3">
               <p>{read_time} min read</p>
-              <button>
-                <FontAwesomeIcon icon={faBookmark} />
+              <button onClick={() => handleBookMark(_id)}>
+                <FontAwesomeIcon icon={faBookmark} style={{fontSize:'30px'}} />
               </button>
             </div>
           </div>
           <h2 className="card-title text-4xl my-4 font-semibold font-serif">{blog_title}</h2>
           <p className="text-cyan-700">#beginners #programming</p>
           <div className="card-actions justify-start">
-            <button onClick={()=>handleReadTime(read_time)} className="text-blue-800 font-bold underline mt-4">Mark as read</button>
+            <button onClick={() => handleReadTime(read_time)} className="text-blue-800 font-bold underline mt-4">Mark as read</button>
           </div>
         </div>
       </div>
