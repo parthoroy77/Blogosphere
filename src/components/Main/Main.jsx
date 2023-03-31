@@ -5,7 +5,20 @@ import ReadTime from "../ReadTime/ReadTime";
 import BookMarked from "../BookMarked/BookMarked";
 const Main = () => {
   const [data, setData] = useState([]);
+  const [readTime, setReadTime] = useState(0)
+  const handleReadTime = (time) => {
+    const storedTime = JSON.parse(localStorage.getItem('readTime'));
+    if (storedTime) {
+      const newTime = storedTime + time;
+      localStorage.setItem('readTime', newTime);
+      setReadTime(newTime)
+    }
+    else {
+      localStorage.setItem('readTime', time);
+      setReadTime(time)
+    }
 
+  }
 
   useEffect(() => {
     fetch('data.json').then(res => res.json()).then(data => setData(data))
@@ -14,11 +27,11 @@ const Main = () => {
     <div className="main-container">
       <div className="blog-container">
         {
-          data.map(singleData => <Blog blog={singleData} key={singleData._id}></Blog>)
+          data.map(singleData => <Blog blog={singleData} handleReadTime={handleReadTime} key={singleData._id}></Blog>)
         }
       </div>
       <div className="bookmark-container px-8">
-        <ReadTime></ReadTime>
+        <ReadTime readTime={readTime}></ReadTime>
         <BookMarked></BookMarked>
       </div>
     </div>
