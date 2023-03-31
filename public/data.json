@@ -6,7 +6,7 @@
     "blog_img": "https://images.indianexpress.com/2023/03/nokia-pure-ui.jpg?w=640",
     "read_time": 15,
     "author_name": "Cooper Horne",
-    "publish_date": "Mar 12"
+    "publish_date": "March 12"
   },
   {
     "_id": "6426be3465ba89ff4c971edd",
@@ -15,7 +15,7 @@
     "blog_img": "https://images.indianexpress.com/2023/03/Meteor-shower-20230330.jpg?w=640",
     "read_time": 7,
     "author_name": "Beryl Kemp",
-    "publish_date": "Mar 31"
+    "publish_date": "March 31"
   },
   {
     "_id": "6426be3422b7bf762b1fb4a0",
@@ -24,7 +24,7 @@
     "blog_img": "https://images.indianexpress.com/2023/03/lenovo-legion-gaming-phone-discontinue.jpg?w=640",
     "read_time": 26,
     "author_name": "Bettye Zimmerman",
-    "publish_date": "Mar 22"
+    "publish_date": "March 22"
   },
   {
     "_id": "6426be34f85f05800b27743a",
@@ -33,6 +33,6 @@
     "blog_img": "https://images.indianexpress.com/2023/03/Google-Bard.jpg?w=640",
     "read_time": 16,
     "author_name": "Casey Wade",
-    "publish_date": "Mar 30"
+    "publish_date": "March 30"
   }
 ]
