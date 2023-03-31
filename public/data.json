@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "6426be34cce9bf87b27ce056",
+    "blog_title": "Nokia unveils Pure UI for B2B and enterprise products",
+    "author_img": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80",
+    "blog_img": "https://images.indianexpress.com/2023/03/nokia-pure-ui.jpg?w=640",
+    "read_time": 15,
+    "author_name": "Cooper Horne",
+    "publish_date": "Mar 12"
+  },
+  {
+    "_id": "6426be3465ba89ff4c971edd",
+    "blog_title": "Artificial meteor showers could soon be a reality",
+    "author_img": "https://img.freepik.com/premium-photo/handsome-young-man-serious-portrait_100800-289.jpg",
+    "blog_img": "https://images.indianexpress.com/2023/03/Meteor-shower-20230330.jpg?w=640",
+    "read_time": 7,
+    "author_name": "Beryl Kemp",
+    "publish_date": "Mar 31"
+  },
+  {
+    "_id": "6426be3422b7bf762b1fb4a0",
+    "blog_title": "Lenovo to discontinue Legion gaming series smartphones",
+    "author_img": "https://st3.depositphotos.com/4384909/33036/i/600/depositphotos_330369456-stock-photo-smart-middle-aged-grayed-man.jpg",
+    "blog_img": "https://images.indianexpress.com/2023/03/lenovo-legion-gaming-phone-discontinue.jpg?w=640",
+    "read_time": 26,
+    "author_name": "Bettye Zimmerman",
+    "publish_date": "Mar 22"
+  },
+  {
+    "_id": "6426be34f85f05800b27743a",
+    "blog_title": "Did Google cheat with Bard chatbot by using ChatGPT data?",
+    "author_img": "https://media.istockphoto.com/id/1069798220/photo/studio-portrait-of-60-year-old-man-on-black-background.jpg?s=612x612&w=0&k=20&c=QMDzcQ33JxNXyN_n6xtyEu-1h5CrY3R6VwXD3iTNLQ8=",
+    "blog_img": "https://images.indianexpress.com/2023/03/Google-Bard.jpg?w=640",
+    "read_time": 16,
+    "author_name": "Casey Wade",
+    "publish_date": "Mar 30"
+  }
+]
