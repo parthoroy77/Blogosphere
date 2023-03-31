@@ -15,7 +15,7 @@ const Blog = (props) => {
     author_name,
   } = props.blog;
   return (
-    <div className="p-8">
+    <div className="px-8">
       <div className="card w-full bg-base-100 shadow-md">
         <div className="p-4">
           <img className="w-full rounded-xl" src={blog_img} alt="" />

@@ -2,5 +2,12 @@
     margin: 30px 0;
     padding: 0 80px;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 950px 1fr;
+}
+
+@media only screen and (max-width:576px){
+    .main-container{
+        padding: 0 ;
+        grid-template-columns: 1fr;
+    }
 }
