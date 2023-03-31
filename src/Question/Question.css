@@ -1,0 +1,17 @@
+
+.question-container{
+    width: 90%;
+}
+.question-container h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: olive;
+    margin-bottom: 20px;
+}
+.question-container p{
+    margin-left: 20px;
+    font-size: 17px;
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
