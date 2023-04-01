@@ -20,7 +20,9 @@ const Main = () => {
       setReadTime(time)
     }
   }
-  console.log(bmBlogs);
+
+
+
   let bookmarkArr = [];
   const handleBookMark = (id) => {
     if (bmBlogs.find(blog => blog._id === id)) {
